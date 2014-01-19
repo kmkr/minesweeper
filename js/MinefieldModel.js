@@ -1,4 +1,6 @@
 window.mines.Minefield = (function () {
+	var generateRows, placeMines;
+
 	Minefield = function (numRows, numCols, numMines) {
 		this.numRows = numRows;
 		this.numCols = numCols;
@@ -11,7 +13,7 @@ window.mines.Minefield = (function () {
 		return board;
 	}
 
-	var generateRows = function (numRows, numCols) {
+	generateRows = function (numRows, numCols) {
 		var board = new Array(numRows);
 		_.times(numRows, function(i) {
 			 var cols = new Array(numCols);
@@ -22,7 +24,7 @@ window.mines.Minefield = (function () {
 		return board;
 	};
 
-	var placeMines = function (board, numMines) {
+	placeMines = function (board, numMines) {
 		_.times(numMines, function (i) {
 			var row, col, placed = false;
 			while (!placed) {
