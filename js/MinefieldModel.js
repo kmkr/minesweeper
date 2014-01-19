@@ -1,4 +1,4 @@
-window.mines.Minefield = (function () {
+window.mines.models.Minefield = (function () {
 	var generateRows, placeMines;
 
 	Minefield = function (numRows, numCols, numMines) {
@@ -18,7 +18,7 @@ window.mines.Minefield = (function () {
 		_.times(numRows, function(i) {
 			 var cols = new Array(numCols);
 			board[i] = _.map(new Array(numCols), function (col) {
-				return new mines.Field();
+				return new mines.models.Field();
 			});
 		});
 		return board;

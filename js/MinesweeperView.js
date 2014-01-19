@@ -7,7 +7,7 @@ window.mines.Minesweeper = (function () {
 			numMines: 5
 		}, opts);
 
-		this.board = new mines.Minefield(this.options.numRows, this.options.numCols, this.options.numMines).generateBoard();
+		this.board = new mines.models.Minefield(this.options.numRows, this.options.numCols, this.options.numMines).generateBoard();
 		_.bindAll(this);
 	}
 
