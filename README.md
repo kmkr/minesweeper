@@ -17,3 +17,9 @@ Mål: Finn de trygge rutene og unngå å tråkke på miner.
 1. Gjør størrelsen på rutenettet konfigurerbart fra grensesnittet.
 1. Gjør antall miner konfigurerbart fra grensesnittet.
 1. Gi mulighet for å markere trygge soner med et høyreklikk.
+
+## Forslag til konfigurering
+
+* Lett: 81 ruter, 10 miner
+* Middels: 256 ruter, 40 miner
+* Vanskelig: 480 ruter, 99 miner
