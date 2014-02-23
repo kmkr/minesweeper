@@ -16,7 +16,7 @@ Mål: Finn de trygge rutene og unngå å tråkke på miner.
 
 1. Gjør størrelsen på rutenettet konfigurerbart fra grensesnittet.
 1. Gjør antall miner konfigurerbart fra grensesnittet.
-1. Gi mulighet for å markere trygge soner med et høyreklikk.
+1. Gi mulighet for å markere/flagge trygge ruter med et høyreklikk.
 
 ## Forslag til konfigurering
 
