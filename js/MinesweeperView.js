@@ -65,6 +65,10 @@ window.mines.Minesweeper = (function () {
 			self.reveal(rowIndex, colIndex);
 			self.render();
 		});
+		td.addEventListener("contextmenu", function (e) {
+			td.className = td.className == "" ? "flagged" : "";
+			e.preventDefault();
+		});
 		if (field.revealed || this.gameover) {
 			if (field.mine) {
 				td.innerHTML = "*";
