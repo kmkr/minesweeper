@@ -17,6 +17,8 @@ Mål: Finn de trygge rutene og unngå å tråkke på miner.
 1. Gjør størrelsen på rutenettet konfigurerbart fra grensesnittet.
 1. Gjør antall miner konfigurerbart fra grensesnittet.
 1. Gi mulighet for å markere/flagge trygge ruter med et høyreklikk.
+1. Implementer en tidsteller som starter ved første trykk og stopper når spillet er over.
+1. Tegn opp brettet med HTML5-Canvas i stedet for HTML-tags.
 
 ## Forslag til konfigurering
 
