@@ -20,6 +20,18 @@ Mål: Finn de trygge rutene og unngå å tråkke på miner.
 1. Implementer en tidsteller som starter ved første trykk og stopper når spillet er over.
 1. Tegn opp brettet med HTML5-Canvas i stedet for HTML-tags.
 
+## Utgangspunkt
+
+Dersom du vil fortsette på påstartet kode:
+
+`git clone https://github.com/ivarni/minesweeper-kata.git`
+
+Branches:
+
+- tests inneholder kun tester
+- master inneholder alt
+- canvas inneholder work-in-progress canvas :)
+
 ## Forslag til konfigureringsverdier
 
 * Lett: 81 ruter, 10 miner
